@@ -1,0 +1,147 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "lato", sans-serif;
+    background-image: url("/imagenes/odo.png");
+    background-size: cover;
+      background-repeat:no-repeat;
+      background-position: center center;
+     
+  }
+  
+  /* Puts the form in the center both horizontally and vertically. Sets its height to 100% of the viewport's height */
+  
+  .signupFrm {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Signika Negative', sans-serif;
+    }
+    .form {
+      height: 100%;
+      background-image: url("/imagenes/odo2.png");
+    background-size: cover;
+      background-repeat:no-repeat;
+      background-position: center center;
+      background-color: white;
+      width: 400px;
+      border-radius: 8px; 
+      padding: 0px 40px;
+      box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    }
+  
+    
+    .title {
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+    .inputContainer {
+      background-color: white;
+      position: relative;
+      height: 45px;
+      width: 90%;
+      margin-bottom: 17px;
+      border-radius: 7px;
+      
+    }
+    /* Style the inputs */
+  
+  .input {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height: 100%;
+      width: 100%;
+      border: 1px solid #DADCE0;
+      border-radius: 7px;
+      font-size: 16px;
+      padding: 0 20px;
+      outline: none;
+      background: none;
+      z-index: 1;
+    }
+    
+    /* Hide the placeholder texts (a) */
+    
+    ::placeholder {
+      color: transparent;
+    }
+    /* Styling text labels */
+  
+  .label {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      padding: 4px;
+      color: #DADCE0;
+      font-size: 16px;
+      transition: 0.5s;
+      z-index: 0;
+    }
+    
+    .submitBtn {
+      position: absolute;
+      display: block;
+      margin-left: 100px;
+      padding: 10px 25px;
+      border: none;
+      background-color: rgb(250, 133, 0);
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 62px;
+    }
+    
+    .submitBtn:hover {
+      background-color: #FF8900;
+      transform: translateY(-2px);
+    }
+    .input:focus + .label {
+      top: 7px;
+      left: 3px;
+      z-index: 10;
+      font-size: 14px;
+      font-weight: 600;
+      color: rgb(243, 130, 0);
+    }
+    .input:focus {
+      border: 2px solid rgb(255, 153, 0);
+    }
+    .input:not(:placeholder-shown)+ .label {
+      top: -7px;
+      left: 3px;
+      z-index: 10;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .icono {
+      height: 40px;
+        width: 40px;
+        
+    }
+    .linea {
+      color: #078640;
+      opacity: 100%;
+  
+    }
+  
+    .icono {
+      height: 40px;
+        width: 40px;
+          color: #000000;
+          position: relative; left: -10px; top: -0px;
+          padding: 0%;
+          margin-bottom: 3%;
+        }
+  
+        /* no es necesario (para eliminar la linea azul del link)
+        .boton a{
+          text-decoration:none;
+         }
+  */
+      

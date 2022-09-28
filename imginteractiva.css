@@ -1,0 +1,114 @@
+.g-col-4   {
+    height: 120px;
+    background-color: rgba(112, 112, 123, 0.31);
+    border-radius: 2px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    z-index: 0;
+  }
+  .bi{
+    color: #919192;
+    z-index: 2;
+    position: relative;
+  }
+
+  .delete {
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+    margin-top: 3%;
+  }
+
+  .nombre{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: black;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+.p-3{
+    font-family: "Signika Negative", sans-serif;
+    font-weight: bold;
+    font-size:large;
+    background-image: url("/imagenes/odo.png");
+    box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.icono {
+    padding: 0%;
+    align-items: flex-start;
+    height: 40px;
+      width: 50px;
+      margin: 0%;
+      color: black;
+    }
+      
+
+     .titulo{
+    text-align: center;  
+     }
+
+     .arriba{
+      margin-bottom: 5%;
+      margin-top: 0%;
+     }
+    
+     .clickable1, .clickable2, .clickable3, .clickable4, .clickable5, .clickable6, .clickable7, .clickable8, .clickable9, .clickable10{
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      position: absolute;     
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+
+    .clickable1:hover{
+        background-image: url("/imagenes/1.jpg");
+        background-size: cover;
+  }
+  .clickable2:hover{
+    background-image: url("/imagenes/2.jpg");
+    background-size: cover;
+}
+.clickable3:hover{
+    background-image: url("/imagenes/3.jpg");
+    background-size: cover;
+}
+.clickable4:hover{
+    background-image: url("/imagenes/4.jpg");
+    background-size: cover;
+}
+.clickable5:hover{
+    background-image: url("/imagenes/5.jpg");
+    background-size: cover;
+}
+.clickable6:hover{
+    background-image: url("/imagenes/11.jfif");
+    background-size: cover;
+}
+.clickable7:hover{
+    background-image: url("/imagenes/7.jpg");
+    background-size: cover;
+}
+.clickable8:hover{
+    background-image: url("/imagenes/8.jpg");
+    background-size: cover;
+}
+.clickable9:hover{
+    background-image: url("/imagenes/9.jpg");
+    background-size: cover;
+}
+.clickable10:hover{
+    background-image: url("/imagenes/10.jpg");
+    background-size: cover;
+}
+
+   
